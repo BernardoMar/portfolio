@@ -1,9 +1,51 @@
 import React, {Component} from 'react';
 import "../css/contact.css";
+import{ init } from 'emailjs-com';
+init("user_Qms8mJzgieEjBHnaO2CsX");
 
 
 
 class Contact extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: '',
+      company: '',
+      email: '',
+      message: ''
+    };
+    this._handleChange = this._handleChange.bind(this);
+    this._handleSubmit = this._handleSubmit.bind(this);
+  }
+
+  _handleChange(event) {
+    const key = event.target.name
+    this.setState({[key]:event.target.value});
+  };
+
+  _handleSubmit(event) {
+    event.preventDefault();
+    const templateId = 'template_a85nykb';
+    this.sendFeedback(templateId, {message: this.state.message, name: this.state.name, email: this.state.email, company: this.state.company})
+  };
+
+  sendFeedback (templateId, variables) {
+    window.emailjs.send(
+      "service_oe160ny", templateId,
+      variables
+      ).then(res => {
+          alert('Email successfully sent!')
+          this.setState({
+            name:'',
+            company:'',
+            email:'',
+            message:''})
+        })
+    
+      .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+    };
+
+
   render () {
     return (
       <div>
@@ -11,14 +53,14 @@ class Contact extends Component {
           <h2>Contact</h2>
         </div>
 
-        <form>
+        <form onSubmit={this._handleSubmit}>
           <h3>Leave me a message and I'll get in touch with you asap</h3>
           <div className="inputContact">
-            <input type="text" placeholder="Name"/>
-            <input type="text" placeholder="Company"/>
-            <input type="text" placeholder="Email"/>
+            <input type="text" name="name" onChange={this._handleChange}  placeholder="Name"/>
+            <input type="text" name="company" onChange={this._handleChange} placeholder="Company"/>
+            <input type="text" name="email" onChange={this._handleChange} placeholder="Email"/>
           </div>
-            <textarea></textarea>
+            <textarea id="test-mailing" name="message" onChange={this._handleChange} value={this.state.message}></textarea>
             <button className="btn-lime">
               <img src="../images/send.svg" alt="send"/>
             </button>
