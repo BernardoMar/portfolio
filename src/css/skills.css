@@ -1,0 +1,19 @@
+.allSkills {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.skill {
+  height: 55px;
+  margin: 20px;
+}
+
+.skill:hover {
+
+  -webkit-filter: drop-shadow(5px 5px 5px #94B0ED);
+  filter: drop-shadow(5px 5px 5px #94B0ED);
+}
