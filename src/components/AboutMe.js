@@ -18,7 +18,7 @@ class AboutMe extends Component {
 
             <ul>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/go_berniego">
                   <img src="../images/mail.svg" alt="mail"/>
                 </a>
               </li>
