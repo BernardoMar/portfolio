@@ -41,7 +41,7 @@ class Contact extends Component {
             email:'',
             message:''})
         })
-    
+
       .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
     };
 
@@ -56,11 +56,11 @@ class Contact extends Component {
         <form onSubmit={this._handleSubmit}>
           <h3>Leave me a message and I'll get in touch with you asap</h3>
           <div className="inputContact">
-            <input type="text" name="name" onChange={this._handleChange}  placeholder="Name"/>
-            <input type="text" name="company" onChange={this._handleChange} placeholder="Company"/>
-            <input type="text" name="email" onChange={this._handleChange} placeholder="Email"/>
+            <input type="text" name="name" onChange={this._handleChange}  placeholder="Name" value={this.state.name} required/>
+            <input type="text" name="company" onChange={this._handleChange} placeholder="Company" value={this.state.company}/>
+            <input type="text" name="email" onChange={this._handleChange} placeholder="Email" value={this.state.email} required/>
           </div>
-            <textarea id="test-mailing" name="message" onChange={this._handleChange} value={this.state.message}></textarea>
+            <textarea id="test-mailing" name="message" onChange={this._handleChange} value={this.state.message} required></textarea>
             <button className="btn-lime">
               <img src="../images/send.svg" alt="send"/>
             </button>
