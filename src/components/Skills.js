@@ -8,7 +8,24 @@ class Skills extends Component {
         <div className="headers" style={{backgroundImage: "url(../images/scrolling3.jpg)"}}>
           <h2>Skills</h2>
         </div>
+        <div className="textSkills">
+          <h3>Front end</h3>
+          <p>React JS, Vue JS, JavaScript, jQuery, HTML 5, CSS, Bootstrap</p>
+
+          <h3>Back end</h3>
+          <p>Ruby on Rails, Node JS, API integration</p>
+
+          <h3>Database</h3>
+          <p>MongoDB, Firebase, PostgreSQL, SQLite</p>
+
+          <h3>Deployments</h3>
+          <p>GitHub, Heroku, Netlify</p>
+          <hr/>
+        </div>
+
+
         <div className="allSkills">
+
           <img src="../images/skills/bootstrap.svg" alt="bootstrap" className="skill"/>
           <img src="../images/skills/css.png" alt="css" className="skill"/>
           <img src="../images/skills/download.png" alt="HTML" className="skill"/>

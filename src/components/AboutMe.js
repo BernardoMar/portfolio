@@ -18,17 +18,17 @@ class AboutMe extends Component {
 
             <ul>
               <li>
-                <a href="https://twitter.com/go_berniego">
+                <a href="https://twitter.com/go_berniego" target="_blank" rel="noreferrer">
                   <img src="../images/mail.svg" alt="mail"/>
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/bernardo--martin/">
+                <a href="https://www.linkedin.com/in/bernardo--martin/" target="_blank" rel="noreferrer">
                   <img src="../images/linkedin.svg" alt="linkedIn"/>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/BernardoMar?tab=repositories">
+                <a href="https://github.com/BernardoMar?tab=repositories" target="_blank" rel="noreferrer">
                   <img src="../images/github.svg" alt="github"/>
                 </a>
               </li>

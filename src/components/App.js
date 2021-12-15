@@ -6,7 +6,7 @@ function App() {
 
   $(window).on('scroll', () => {
     const scrollTop = $(window).scrollTop();
-    $('.headers').css('background-position-y', -scrollTop / 5);
+    $('.headers').css('background-position-y', -scrollTop / 8);
   });
 
   return (
