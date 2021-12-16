@@ -138,3 +138,33 @@
 .projectsLinks:hover {
   color: rgba(137, 210, 220, 0.5);
 }
+
+@media(max-width: 600px) {
+  .projectsImg {
+    width: 500px;
+  }
+  .foodBibleWrapper {
+    height: 344px;
+    width: 500px;
+  }
+  .MohakaWrap {
+    height: 391.18px;
+    width: 500px;
+  }
+
+  .TrippingWrap {
+    height: 289px;
+    width: 500px;
+  }
+
+  .TicTacToeWrap {
+
+    height: 442px;
+    width: 500px;
+  }
+  .foodieDescription {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+}

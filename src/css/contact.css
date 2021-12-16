@@ -15,9 +15,18 @@ form {
   width: 90%;
   margin: 0 auto;
 }
+
+@media(max-width: 600px) {
+  .inputContact{
+    display: block;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 input {
   margin: 10px 5px;
-  width: 33%;
+  width: 90%;
   height: 42px;
   border-radius: 0.25rem;
   border: 1px solid #ced4da;

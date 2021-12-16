@@ -33,7 +33,6 @@ body {
 
 
 
-
 .headers {
 
   min-height: 9em;
@@ -84,4 +83,13 @@ body {
 
 .anchorLinks:hover {
   color: #627BB1;
+}
+
+@media(max-width: 600px) {
+  .secContainer {
+    max-width: 400px;
+  }
+  .anchorLinks {
+  font-size: 14px;
+  }
 }
