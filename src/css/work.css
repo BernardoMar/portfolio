@@ -8,3 +8,9 @@
   text-decoration: none;
   color: black;
 }
+
+@media(max-width: 450px) {
+  #possition {
+    font-size: 20px;
+  }
+}

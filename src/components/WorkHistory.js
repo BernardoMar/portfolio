@@ -11,7 +11,7 @@ class WorkHistory extends Component {
         <div className="secContainer">
           <div className="workCards">
               <div className="possition">
-                <h2>Property Manager</h2>
+                <h2 id="possition">Property Manager</h2>
               </div>
               <div>
                 <a className="company" href="https://www.indigorealestate.com.au/" target="_blank" rel="noreferrer">

@@ -37,3 +37,17 @@ h1 {
 #home-btn {
   width: 180px;
 }
+
+@media(max-width: 450px) {
+  h1 {
+    font-size: 30px;
+  }
+  .homePage {
+    font-size: 20px;
+    height: 450px;
+  }
+  button {
+    font-size: 10px;
+  }
+
+}
