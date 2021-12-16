@@ -48,7 +48,7 @@ class Projects extends Component {
                 </a>
                 <p> Tripping is a web application that displays the realtime train positions on the Sydney Trains network including Intercity trains to the Blue Mountains and Central Coast. Trains can be filtered and individually selected using the search functionality. Individual trains on the map can be clicked for further information. The app uses API data from Transport for NSW Open Data, Google Maps Javascript API, openweathermap.org and newsapi.org.
                 </p>
-                <p>
+                <p className="technologies">
                 For this app we used technologies such as: React JS, Ruby 2.7.4, Sinatra, Bootstrap, MUI. We also integrated APIs such as Google Maps and Transport for NSW Open Data, among others.
               </p>
 

@@ -49,5 +49,8 @@ h1 {
   button {
     font-size: 10px;
   }
+  #home-btn {
+    height: 60px;
+  }
 
 }
