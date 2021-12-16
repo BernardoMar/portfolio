@@ -19,8 +19,8 @@ class Portfolio extends Component {
         <div className="navBar">
 
             <AnchorLink className="anchorLinks" href='#about'>About Me</AnchorLink>
-            <AnchorLink className="anchorLinks" href='#skills'>Skills</AnchorLink>
             <AnchorLink className="anchorLinks" href='#projects'>Projects</AnchorLink>
+            <AnchorLink className="anchorLinks" href='#skills'>Skills</AnchorLink>
             <AnchorLink className="anchorLinks" href='#work'>Work Experience</AnchorLink>
             <AnchorLink className="anchorLinks" href='#contact'>Contact</AnchorLink>
 
