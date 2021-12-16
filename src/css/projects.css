@@ -168,3 +168,40 @@
   }
 
 }
+@media(max-width: 450px) {
+  .projectsImg {
+    width: 390px;
+  }
+  .foodBibleWrapper {
+    height: 272.23px;
+    width: 390px;
+  }
+  .MohakaWrap {
+    height: 305.61px;
+    width: 390px;
+  }
+
+  .TrippingWrap {
+    height: 229.73px;
+    width: 390px;
+  }
+
+  .TicTacToeWrap {
+
+    height: 345.55px;
+    width: 390px;
+  }
+  .foodieDescription {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .btn-blue{
+    margin: 3px auto;
+    font-size: 15px;
+    width: 30px;
+  }
+  .technologies {
+    visibility: hidden;
+  }
+
+}

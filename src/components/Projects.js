@@ -25,14 +25,15 @@ class Projects extends Component {
                     </p>
                     <p>The app also features a dashboard where users can see their tasks listed according to their urgency and users can drag them within their column to sort them. The tasks are safely store in a Firestore database allowing users to log out and find all their tasks back when they log in.
                   </p>
+                  <div className="technologies">
                   <h4>Main Technologies</h4>
-                  <ul id="mohakaUL">
-                    <li>React JS</li>
-                    <li>Firestore</li>
-                    <li>Bootstrap</li>
-                    <li>CSS</li>
-
-                  </ul>
+                    <ul id="mohakaUL">
+                      <li>React JS</li>
+                      <li>Firestore</li>
+                      <li>Bootstrap</li>
+                      <li>CSS</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -69,13 +70,15 @@ class Projects extends Component {
                 </p>
                 <p>
                 Take a look and leave a comment!</p>
-                <h4>Main Technologies</h4>
-                <ul>
-                  <li>Ruby2.7.0</li>
-                  <li>Rails</li>
-                  <li>CSS</li>
-                  <li>HTML5</li>
-                </ul>
+                <div className="technologies">
+                  <h4>Main Technologies</h4>
+                  <ul>
+                    <li>Ruby2.7.0</li>
+                    <li>Rails</li>
+                    <li>CSS</li>
+                    <li>HTML5</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </a>
@@ -94,13 +97,15 @@ class Projects extends Component {
                 </p>
                 <p>
                 Considering this is my first project ever as a developer, I am very proud about it!</p>
-                <h4>Main Technologies</h4>
-                <ul>
-                  <li>JavaScript</li>
-                  <li>CSS</li>
-                  <li>HTML 5</li>
-                  <li>jQuery</li>
-                </ul>
+                <div className="technologies">
+                  <h4>Main Technologies</h4>
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>HTML 5</li>
+                    <li>jQuery</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </a>

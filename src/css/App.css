@@ -93,3 +93,11 @@ body {
   font-size: 14px;
   }
 }
+@media(max-width: 400px) {
+  .secContainer {
+    max-width: 390px;
+  }
+  .anchorLinks {
+  font-size: 12px;
+  }
+}
