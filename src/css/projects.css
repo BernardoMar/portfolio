@@ -105,3 +105,12 @@ h4 {
   visibility: visible;
   opacity: 1;
 }
+
+.projectsLinks {
+  text-decoration: none;
+  color: white;
+}
+
+.projectsLinks:hover {
+  color: rgba(137, 210, 220, 0.6);
+}
