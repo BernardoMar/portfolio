@@ -17,21 +17,23 @@ class Projects extends Component {
               <img className="projectsImg" src='../images/mohaka.png' alt="Mohaka"/>
               <div className="foodieDescription">
                 <a className="projectsLinks" href="https://lucid-northcutt-0ff37e.netlify.app/#/" target="_blank" rel="noreferrer">
-                  <h4>Mohaka</h4>
+                  <button className="btn-blue btn-projects">Mohaka</button>
                 </a>
-                <p>
-                  Mohaka is a React web application that allows users to create an account in order to load their tasks and arrange them according to different categories and urgencies. The app allows users to create, edit, mark those task that have been done, and to delete their tasks.
+                <div className="text-wrapper">
+                  <p>
+                    Mohaka is a React web application that allows users to create an account in order to load their tasks and arrange them according to different categories and urgencies. The app allows users to create, edit, mark those task that have been done, and to delete their tasks.
+                    </p>
+                    <p>The app also features a dashboard where users can see their tasks listed according to their urgency and users can drag them within their column to sort them. The tasks are safely store in a Firestore database allowing users to log out and find all their tasks back when they log in.
                   </p>
-                  <p>The app also features a dashboard where users can see their tasks listed according to their urgency and users can drag them within their column to sort them. The tasks are safely store in a Firestore database allowing users to log out and find all their tasks back when they log in.
-                </p>
-                <h4>Main Technologies</h4>
-                <ul id="mohakaUL">
-                  <li>React JS</li>
-                  <li>Firestore</li>
-                  <li>Bootstrap</li>
-                  <li>CSS</li>
+                  <h4>Main Technologies</h4>
+                  <ul id="mohakaUL">
+                    <li>React JS</li>
+                    <li>Firestore</li>
+                    <li>Bootstrap</li>
+                    <li>CSS</li>
 
-                </ul>
+                  </ul>
+                </div>
               </div>
             </div>
           </a>
@@ -41,7 +43,7 @@ class Projects extends Component {
               <img className="projectsImg" src='../images/tripping.png' alt="tripping"/>
               <div className="foodieDescription">
                 <a className="projectsLinks" href="https://tripping-transit.netlify.app/" target="_blank" rel="noreferrer">
-                  <h4>TRIPPING</h4>
+                  <button className="btn-blue btn-projects">Tripping</button>
                 </a>
                 <p> Tripping is a web application that displays the realtime train positions on the Sydney Trains network including Intercity trains to the Blue Mountains and Central Coast. Trains can be filtered and individually selected using the search functionality. Individual trains on the map can be clicked for further information. The app uses API data from Transport for NSW Open Data, Google Maps Javascript API, openweathermap.org and newsapi.org.
                 </p>
@@ -58,7 +60,7 @@ class Projects extends Component {
               <img className="projectsImg" src='../images/foodieBible.png' alt="foodie bible"/>
               <div className="foodieDescription">
                 <a className="projectsLinks" href="https://bernie01project.herokuapp.com/" target="_blank" rel="noreferrer">
-                  <h4>The Foodie Bible</h4>
+                  <button className="btn-blue btn-projects">The Foodie Bible</button>
                 </a>
                 <p> The 'Foddie Bible' is my second project during my Software Engineering Course at GA. It's a website where users can create and navigate trough different restaurants and coffee shops in Melbourne.
                 </p>
@@ -83,7 +85,7 @@ class Projects extends Component {
               <img className="projectsImg" src='../images/TicTacToe.png' alt="TIC TAC TOE"/>
               <div className="foodieDescription">
                 <a className="projectsLinks" href="https://bernardomar.github.io/project0/" target="_blank" rel="noreferrer">
-                  <h4>TIC TAC TOE</h4>
+                  <button className="btn-blue btn-projects">TIC TAC TOE</button>
                 </a>
                 <p> This Tic-Tac-Toe is my very first developing project! It consists on a very simple game, however, coding it wasn't so simple.
                 </p>
