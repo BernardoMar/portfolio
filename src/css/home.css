@@ -1,38 +1,39 @@
-.homePage {
-  background-size: cover;
-  position: relative;
+.homePage-header {
+  /* height: 600px; */
+  text-align: center;
+  margin: 0 auto;
 }
 
 h1 {
-  background-color: #FF796F;
+  background-image: linear-gradient(to bottom right, #89D2DC, #6564DB);
   height: 120px;
   color: white;
   line-height: 120px;
-  position: absolute;
-  top: 0;
   width: 100%;
   margin-top: 0px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius:  4px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.homePage_header {
-  margin-top: 200px;
+.homePage{
+  background-size: cover;
+  height: 600px;
+  margin-top: -40px;
+  text-align: center;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.btn-red{
-  background-color : #FF796F;
-  width: 200px;
-  color: white;
-  font-weight: 600;
-  font-family: 'Manrope', sans-serif;
-  font-size: 15px;
-}
 
-button:hover{
-  background-color : transparent ;
-}
-.btn-red:hover {
-  border : 1px solid  #FF796F;
-  color : #FF796F;
+#home-btn {
+  width: 180px;
 }

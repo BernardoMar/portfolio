@@ -50,17 +50,18 @@ button{
   transition : background-color ease-in-out 0.5s;
 }
 .btn-lime{
-  background-color : #2C468B;
+  background-color : #F3B777;
   color: white;
   font-weight: 600;
   font-family: 'Manrope', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 button:hover{
   background-color : transparent ;
 }
 .btn-lime:hover {
-  border : 1px solid  #2C468B;
-  color : #2C468B;
+  border : 1px solid  #F3B777;
+  color : #F3B777;
 }

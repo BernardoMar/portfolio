@@ -9,6 +9,8 @@
 
 .projectsImg {
   width: 600px;
+  border: 5px solid #6564DB;
+  border-radius: 4px;
 
 }
 
@@ -20,6 +22,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  background-color: #2F3138;
 }
 
 .TicTacToeWrap {
@@ -30,6 +33,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
+  background-color: #6689A1;
 }
 .TrippingWrap {
   position: relative;
@@ -56,14 +60,14 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(249, 151, 70, 0.90);
+  background: rgba(101, 100, 219, 0.90);
   color: white;
   visibility: hidden;
   opacity: 0;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   border: 0;
-  text-align: center;
+  text-align: justify;
   padding: 10px;
   font-size: 17px;
   font-weight: 700;
@@ -74,6 +78,7 @@
 h4 {
   font-size: 27px;
   font-family: 'Rajdhani', sans-serif;
+  text-align: center;
 }
 
 .mohakaUL {

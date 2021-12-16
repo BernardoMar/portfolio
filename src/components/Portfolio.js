@@ -18,11 +18,11 @@ class Portfolio extends Component {
       <div className="container">
         <div className="navBar">
 
-            <AnchorLink style={{ color: 'white', textDecoration: 'none' }} className="anchorLinks" href='#about'>AboutMe</AnchorLink>
-            <AnchorLink style={{ color: 'white', textDecoration: 'none' }} className="anchorLinks" href='#skills'>Skills</AnchorLink>
-            <AnchorLink style={{ color: 'white', textDecoration: 'none' }} className="anchorLinks" href='#projects'>Projects</AnchorLink>
-            <AnchorLink style={{ color: 'white', textDecoration: 'none' }} className="anchorLinks" href='#work'>Work Experience</AnchorLink>
-            <AnchorLink style={{ color: 'white', textDecoration: 'none' }} className="anchorLinks" href='#contact'>Contact</AnchorLink>
+            <AnchorLink className="anchorLinks" href='#about'>About Me</AnchorLink>
+            <AnchorLink className="anchorLinks" href='#skills'>Skills</AnchorLink>
+            <AnchorLink className="anchorLinks" href='#projects'>Projects</AnchorLink>
+            <AnchorLink className="anchorLinks" href='#work'>Work Experience</AnchorLink>
+            <AnchorLink className="anchorLinks" href='#contact'>Contact</AnchorLink>
 
         </div>
 

@@ -5,7 +5,7 @@ class WorkHistory extends Component {
   render () {
     return (
       <div>
-        <div className="headers" style={{backgroundImage: "url(../images/scrolling4.jpg)"}}>
+        <div className="header-experience" style={{backgroundImage: "url(../images/scrolling4.jpg)"}}>
           <h2>Work Experience</h2>
         </div>
         <div className="secContainer">

@@ -8,7 +8,7 @@ class Projects extends Component {
         <div className="headers" style={{backgroundImage: "url(../images/scrolling2.jpg)"}}>
           <h2>Projects</h2>
         </div>
-      
+
         <div className="projectsWrapper">
 
           <a href="https://github.com/BernardoMar/dutytracker" target="_blank" rel="noreferrer">
@@ -18,7 +18,9 @@ class Projects extends Component {
               <div className="foodieDescription">
                 <h4>Mohaka</h4>
                 <p>
-                  Mohaka is a React web application that allows users to create an account in order to load their tasks and arrange them according to different categories and urgencies. The app allows users to create, edit, mark those task that have been done, and to delete their tasks. The app also features a dashboard where users can see their tasks listed according to their urgency and users can drag them within their column to sort them. The tasks are safely store in a Firestore database allowing users to log out and find all their tasks back when they log in.
+                  Mohaka is a React web application that allows users to create an account in order to load their tasks and arrange them according to different categories and urgencies. The app allows users to create, edit, mark those task that have been done, and to delete their tasks.
+                  </p>
+                  <p>The app also features a dashboard where users can see their tasks listed according to their urgency and users can drag them within their column to sort them. The tasks are safely store in a Firestore database allowing users to log out and find all their tasks back when they log in.
                 </p>
                 <h4>Main Technologies</h4>
                 <ul id="mohakaUL">
@@ -54,9 +56,11 @@ class Projects extends Component {
 
                 <h4>The Foodie Bible</h4>
                 <p> The 'Foddie Bible' is my second project during my Software Engineering Course at GA. It's a website where users can create and navigate trough different restaurants and coffee shops in Melbourne.
-                <br/>
+                </p>
+                <p>
                 The project is based on the skills and technologies learnt during the second module of the course. Basically it allows users to create, inspect, edit and delete data.
-                <br/>
+                </p>
+                <p>
                 Take a look and leave a comment!</p>
                 <h4>Main Technologies</h4>
                 <ul>
@@ -75,10 +79,12 @@ class Projects extends Component {
               <div className="foodieDescription">
                 <h4>TIC TAC TOE</h4>
                 <p> This Tic-Tac-Toe is my very first developing project! It consists on a very simple game, however, coding it wasn't so simple.
-                <br/>
+                </p>
+                <p>
                 The goal of the game is to achieve a line of three elements (X or O in my version of the game) before the other contestant.
-                <br/>
-                There're probably many features of the game that I could have improved, however I am very happy with the result and I hope you enjoy it as well!</p>
+                </p>
+                <p>
+                Considering this is my first project ever as a developer, I am very proud about it!</p>
                 <h4>Main Technologies</h4>
                 <ul>
                   <li>JavaScript</li>

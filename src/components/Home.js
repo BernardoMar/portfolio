@@ -6,19 +6,17 @@ import "../css/home.css"
 class Home extends Component {
   render () {
     return (
-      <div className="container homePage" style={{backgroundImage: "url(../images/20945651.jpg)"}}>
-        <div className="headers">
+      <div className="container" >
+        <div className="homePage-header">
           <h1>Bernardo Martin</h1>
-          <div className="homePage_header">
+        </div>
+        <div className="homePage" style={{backgroundImage: "url(../images/scrolling6.jpg)"}}>
             <h2>Junior Software Engineer</h2>
             <h3>Full-Stack Developer</h3>
             <Link to="/portfolio">
-              <button className="btn-red">Check my Portfolio</button>
+              <button className="btn-lime" id="home-btn">Check my Portfolio</button>
             </Link>
-          </div>
         </div>
-
-
       </div>
     )
   }

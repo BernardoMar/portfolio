@@ -21,7 +21,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   min-height: 80vh;
-  background-color: #DDEBF8;
+  background-color: rgba(137, 210, 220, 0.1);
 }
 
 .secContainer {
@@ -47,10 +47,23 @@ body {
 
 
 }
+.header-experience {
+
+  min-height: 9em;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  /* font-size: 30px; */
+  /* background-attachment: fixed; */
+  background-size: cover;
+
+
+}
 
 
 .navBar{
-  background-image: linear-gradient(to bottom right, #30638E, #00798C);
+  background-image: linear-gradient(to bottom right, #89D2DC, #6564DB);
   display: flex;
   justify-content: space-around;
   min-height: 50px;
@@ -60,4 +73,15 @@ body {
 	top: 0;
   margin-bottom: 0px;
   z-index: 1;
+}
+
+.anchorLinks {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.anchorLinks:hover {
+  color: #627BB1;
 }
