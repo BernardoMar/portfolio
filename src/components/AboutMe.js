@@ -10,6 +10,9 @@ class AboutMe extends Component {
         </div>
         <div className="secContainer">
           <div className="aboutMe">
+
+              <img className="screenShot" src="../images/screenShot.PNG" alt="screenShot"/>
+
             <p> I have 5+ years of experience working for top tier corporate law firms as a solicitor. However, soon after I got my hands dirty coding and developing I have happily decided to make a career change into the IT world. I have become obsessed with the capability to create and design behind the different coding languages and the excitement of problem solving and debugging.</p>
             <p> I have developed significant expertise and skills working with technologies such as HTML, CSS, JavaScript and Ruby, and I keep pushing myself by undertaking new challenges and some of the most updated development courses. On top of that, I carry with me my previous experience as a lawyer which includes team leadership, excellent time management, problem solving and fast-paced team work. </p>
             <p> At this stage, I am looking forward to meeting and to start working as a full stack developer for a great team of passionate developers who strive for challenging projects and that can provide professional progress. If you would like to hear more from me, please get in touch! </p>

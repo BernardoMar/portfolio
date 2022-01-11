@@ -11,7 +11,7 @@ class Home extends Component {
           <h1>Bernardo Martin</h1>
         </div>
         <div className="homePage" style={{backgroundImage: "url(../images/scrolling6.jpg)"}}>
-            <h2>Junior Software Engineer</h2>
+            <h2>Software Engineer</h2>
             <h3>Full-Stack Developer</h3>
             <Link to="/portfolio">
               <button className="btn-lime" id="home-btn">Check my Portfolio</button>

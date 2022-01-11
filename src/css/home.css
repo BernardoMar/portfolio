@@ -54,3 +54,7 @@ h1 {
   }
 
 }
+
+body {
+  height: 100vh;
+}

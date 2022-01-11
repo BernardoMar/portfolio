@@ -16,7 +16,13 @@ li {
 }
 
 img:hover{
-  
+
   -webkit-filter: drop-shadow(5px 5px 5px #94B0ED);
   filter: drop-shadow(5px 5px 5px #94B0ED);
+}
+
+
+.screenShot {
+  max-width: 300px;
+
 }

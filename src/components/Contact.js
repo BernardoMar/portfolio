@@ -61,10 +61,32 @@ class Contact extends Component {
             <input type="text" name="email" onChange={this._handleChange} placeholder="Email" value={this.state.email} required/>
           </div>
             <textarea id="test-mailing" name="message" onChange={this._handleChange} value={this.state.message} required></textarea>
+
             <button className="btn-lime">
-              <img src="../images/send.svg" alt="send"/>
+              Submit
             </button>
+            <div class="contactList">
+              <h3>Also, you can find me here: </h3>
+              <ul>
+                <li>
+                  <a href="https://twitter.com/go_berniego" target="_blank" rel="noreferrer">
+                    <img src="../images/mail.svg" alt="mail"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/bernardo--martin/" target="_blank" rel="noreferrer">
+                    <img src="../images/linkedin.svg" alt="linkedIn"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/BernardoMar?tab=repositories" target="_blank" rel="noreferrer">
+                    <img src="../images/github.svg" alt="github"/>
+                  </a>
+                </li>
+              </ul>
+            </div>
         </form>
+
 
 
       </div>
